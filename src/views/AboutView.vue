@@ -14,12 +14,7 @@
         <input type="number" placeholder="Your phone.." v-model="phone" />
 
         <label for="message">Message</label>
-        <textarea
-          id="subject"
-          placeholder="Write something.."
-          style="height: 200px"
-          v-model="message"
-        ></textarea>
+        <textarea placeholder="Write something.." style="height: 200px" v-model="message"></textarea>
 
         <button v-on:click="active='true'" class="submit">Submit</button>
       </form>
